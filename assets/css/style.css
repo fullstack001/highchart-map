@@ -1,0 +1,129 @@
+
+@font-face {
+  font-family: Calibri; /* Specify a name for the font */
+  src: url('../fonts/calibri-regular.ttf') format('truetype'); /* Specify the path to your TTF font file */
+}
+
+body{
+  font-family: Calibri, Arial, sans-serif;
+}
+
+#container {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.navbar-brand img{
+  width: 250px;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+#map {
+  height: 100%;
+}
+
+.trasholder{
+  margin: auto;
+  width: 120px;
+  border-radius: 15px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+.bg-green{
+  background-color: #00ff00;
+}
+
+.bg-blue{
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.bg-yellow{
+  background-color: #ffff00;
+}
+
+.bg-red{
+  background-color: #ff0000;
+}
+
+.indicator{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.text-green{
+  color: #00ff00;
+}
+
+.text-blue{
+  color: #0000ff;
+}
+
+.text-yellow{
+  color: #ffff00;
+}
+
+.text-red{
+  color: #ff0000;
+}
+
+#submit{
+  margin: auto;
+}
+
+.responsive{
+  position: relative;
+}
+
+.indicators{  
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+.indicator_area{
+  width: 50px;
+  height: 22px;
+  font-size: 12px;
+}
+
+th, td{
+  text-align: center;
+}
+
+.general{
+  text-align: center;
+  width: 100%;
+}
+
+.mobile_none{
+  visibility: hidden !important;
+}
+
+@media (max-width: 662px) {
+
+  .mobile_none{
+    visibility: visible !important;   
+  }
+  
+  .desktop_version{
+    visibility: hidden !important;
+    height: 0 !important;
+  }
+
+  .indicator_area{
+    width: 80px;
+  }
+
+  #mobile_general{
+    display: none;
+  }
+
+}
